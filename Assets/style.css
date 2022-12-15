@@ -1,17 +1,49 @@
-h1,h2 {
-  text-align: center;
+html {
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.center {
+
+* , *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
-#mySidebar{};
-
-body {
-  background-color: powderblue;
+.card {
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 0 4px 4px;
+  color: blue;
 }
 
+.card-body {
+  padding: .2rem 1rem;
+}
+
+.card-title {
+  margin: 0;
+  padding: .2rem 1rem;
+}
+
+.card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid blue;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 20px;
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+padding: 20px;
+text-align: center;
+background-color: #f1f1f1;
+}
