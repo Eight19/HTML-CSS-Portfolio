@@ -1,9 +1,45 @@
 html {
   box-sizing: border-box;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
+/* Added a sidebar to provide access to blog, resume, and services */
+.sidenav {
+  height: 100%; 
+  width: 167px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: rgb(199, 180, 129); 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 4px 6px 4px 8px;
+  font-size: 40px;
+  color: #000000;
+  display: block;
+}
+
+/* Added side navigation for additional resources */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Added margin and padding to page content */
+.main {
+  margin-left: 150px; 
+  padding: 0px 10px;
+}
+
+/* Adjusted height of the style of the sidebar for viewing on smaller screens*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 14px;}
+  .sidenav a {font-size: 16px;}
+}
 * , *::before, *::after {
   box-sizing: inherit;
 }
@@ -12,12 +48,12 @@ html {
   display: block;
   width: 100%;
 }
-
+/* Changed colors for easier viewing */
 .card {
   overflow: hidden;
-  border: 2px solid #ccc;
-  border-radius: 0 4px 4px;
-  color: blue;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1 7px 10px;
+  color: rgb(0, 0, 0);
 }
 
 .card-body {
@@ -27,23 +63,25 @@ html {
 .card-title {
   margin: 0;
   padding: .2rem 1rem;
+  border: rgb(197, 132, 11);
 }
 
 .card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
-  border-left: 4px solid blue;
+  border-left: 4px solid rgb(253, 255, 231);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .column {
   float: left;
-  width: 30%;
-  padding: 0 20px;
+  width: 33%;
+  padding: 0 10px;
 }
 
 .card {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-padding: 20px;
+box-shadow: 0 6px 8px 0 rgba(255, 255, 241, 0.911);
+padding: 8px;
 text-align: center;
-background-color: #f1f1f1;
+background-color: #d3c6a4;
+
 }
