@@ -4,30 +4,43 @@
     <title>Tiffany Jones Portfolio</title>
     <script src="https://kit.fontawesome.com/d2048f70af.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./Assets/style.css">
     <style>
       body, html {
-        height: 106%;
-        margin: 8%;
+        height: auto;
+        margin: 4%;
+        padding-left: 16px;
         font-family: Lato;font-size: 25px;
+        position: relative;
       }
 
       .bg {
-        background-image: url("https://scontent-iad3-2.xx.fbcdn.net/v/t31.18172-8/25358253_10100193286190425_1386212144322964613_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=84a396&_nc_ohc=pI-Ngb4wd4cAX--6_iU&_nc_ht=scontent-iad3-2.xx&oh=00_AfAxgKKv2fo-M9x9mzHZouH9sEOJqgVpZjbpfI0_IqlaeQ&oe=63C23D59");
-        height: 200px;
-        margin: 13%;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url("https://github.com/Eight19/html-css-portfolio/blob/main/Assets/images/TJ.jpg?raw=true");
         background-size: cover;
-        background-color: rgb(151, 155, 158);
+        background-position: center;     
+        background-repeat: repeat;
+        background-size: auto;
+        background-color: rgb(180, 135, 147);
+        min-height: fit-content;
       }
-    </style>
+    
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(231, 205, 220);
+      color: white;
+      text-align: center;
+      height: 25px;
+}
+  </style>
     <!-- Added side navigation -->
 <div class="sidenav">
-  <header><h3>Tiffany Jones</h3></header>
+  <header><h3>My Portfolio</h3></header>
   <a href="#">Blog</a>
   <a href="#">Resume</a>
   <a href="#">Services</a>
@@ -38,8 +51,24 @@
 
 </head>
   <body
-
+  
     div class="bg"></div>
+
+    <div class="wrapper">
+      <h2>TIFFANY L JONES</h2>
+      <style>
+        h2 {
+          border: 10px solid rgba(168, 163, 149, 0.911);
+          text-align: center;
+          font-size: xx-large;
+          font-family: Lato;
+          color: rgb(255, 255, 255);
+          
+        }
+        </style>  
+      </div>
+    </div>
+  </div>
        
      <br>
      
@@ -53,33 +82,8 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+
 
 <article class="card">
   <header class="card-title">
@@ -99,7 +103,7 @@
 <div class="card">
   <style>
     h2 {
-      border: 5px solid rgba(211, 157, 10, 0.911);
+      border: 5px solid rgba(168, 163, 149, 0.911);
     }
     </style>
 
@@ -107,49 +111,63 @@
       <div class="card">
         <style>
           h3 {
-            border: 4px solid rgba(211, 157, 10, 0.911);
+            border: 4px solid rgba(145, 145, 140, 0.911);
             }
           </style>
           
-        <h3>Credentials</h3>
+        <h3>Certifications/Licenses</h3>
         <hr/>
-        <div class="w3-container">
+        <section class="w3-container">
            <div class="w3-dropdown-hover">
-            <button class="w3-button w3-gray">Select</button>
+            <button class="w3-button w3-gray">Show</button>
               <div class="w3-dropdown-content w3-centered w3-bar-block w3-border">
-              <a href="https://license.ncrec.gov/ncrec/oecgi3.exe/O4W_WRAPPER?ID=O4W_LIC_SHOW_DETAILV2_NEW&LIC_NO=324798">NCREC License Number: 324798</a>
-              <a href="https://ata.grec.state.ga.us/Account/Search">GREC License Number: 428717</a>
-              <a href="https://www.sosnc.gov/online_services/notary/search_notary_number">NC Notary Number: 202221500205</a>
+              <a href="https://license.ncrec.gov/ncrec/oecgi3.exe/O4W_WRAPPER?ID=O4W_LIC_SHOW_DETAILV2_NEW&LIC_NO=324798">NCREC License #: 324798</a>
+              <a href="https://ata.grec.state.ga.us/Account/Search">GREC License #: 428717</a>
+              <a href="https://www.sosnc.gov/online_services/notary/search_notary_number">NC Notary #: 202221500205</a>
             </div>
           </div>
-        </div>
+        </section>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
         <hr>
       </div>
     </div>
 
-    <div class="column">
+    <section class="column">
       <div class="card">
-        <h3>Projects</h3>
+        <h3>My Projects</h3>
         <img src="Assets/images/To-Read-or-to-Watch site.png" alt="Visual of To-Read-or-to-Watch site">
-        <li><a href="https://github.com/Eight19/Password-Generator">Password-Generator</a></li>
         <li><a href="https://djbartolini.github.io/movies-and-books/">To-Read-or-to-Watch</a></li>
-        <li><a href="file:///C:/Users/MsTLJ/Bootcamp/challenges/seo-refactor/index.html">Seo-Refactor</a></li>
+        <li><a href="https://github.com/Eight19/Password-Generator">Password-Generator</a></li>
+        <li><a href="https://github.com/Eight19/seo-refactor">Seo-Refactor</a></li>
       </div>
-    </div>
+    </section>
           
-    <div class="column">
+    <section class="column">
       <div class="card">
-          <h3>Contact</h3>
+          <h3>Reach Me By</h3>
           <li><a href="tel:+9803129531"><i class="fa fa-phone" style="font-size:32px;color:rgb(0, 0, 0)"></i></a>
           <li><a href="mailto:eight19realty.com"><i class="fa fa-envelope-o" style="font-size:32px;color:rgb(0, 0, 0)"></i></a></li>
           <li><a href="https://www.linkedin.com/in/tiffany-jones-b811402b/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></li>
           <li><a href="https://github.com/Eight19"><i class="fa-brands fa-github"></i></a></li>
           
       </div>
-    </div>
+    </section>
     
     <div class="display-flex full-height">
     <div class="display-flex full-width">
+            
+      <div class="footer">
+        <p>Footer</p>
+      </div
+
                  
   
 
