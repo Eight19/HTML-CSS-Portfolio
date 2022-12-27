@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Lato;
 }
 
 
@@ -12,64 +12,56 @@ html {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color: rgb(199, 180, 129); 
+  background-color: rgb(131, 114, 127); 
   overflow-x: hidden; 
-  padding-top: 20px;
+  padding-top: 15xczxpx;
+  font-family: Lato;
+  color: #ffffff;
 }
 
 .sidenav a {
   padding: 4px 6px 4px 8px;
-  font-size: 40px;
-  color: #000000;
-  display: block;
+  font-size: 28px;
+  color: #ffffff;
+  display: block; 
 }
 
 /* Added side navigation for additional resources */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #000000;
 }
 
-/* Added margin and padding to page content */
-.main {
-  margin-left: 150px; 
-  padding: 0px 10px;
-}
+
 
 /* Adjusted height of the style of the sidebar for viewing on smaller screens*/
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 14px;}
-  .sidenav a {font-size: 16px;}
-}
-* , *::before, *::after {
-  box-sizing: inherit;
+  .sidenav a {font-size: 14px;}
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
+
 /* Changed colors for easier viewing */
 .card {
   overflow: hidden;
-  border: 2px solid rgb(0, 0, 0);
-  border-radius: 1 7px 10px;
-  color: rgb(0, 0, 0);
+  border: 2px solid rgb(119, 119, 119);
+  border-radius: 10 10px 12px;
+  color: rgb(255, 255, 255);
 }
 
 .card-body {
-  padding: .2rem 1rem;
+  padding: 10rem 5rem;
 }
 
 .card-title {
   margin: 0;
-  padding: .2rem 1rem;
-  border: rgb(197, 132, 11);
+  padding: .3rem 2rem;
+  border: rgb(120, 120, 129);
 }
 
 .card-label {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
-  border-left: 4px solid rgb(253, 255, 231);
-  background-color: rgba(0, 0, 0, 0.2);
+  padding: .1rem 2rem .3rem calc(1rem - 4px);
+  border-right: 10px solid rgb(185, 185, 182);
+  background-color: rgba(241, 205, 205, 0.2);
 }
 
 .column {
@@ -79,9 +71,7 @@ html {
 }
 
 .card {
-box-shadow: 0 6px 8px 0 rgba(255, 255, 241, 0.911);
-padding: 8px;
-text-align: center;
-background-color: #d3c6a4;
-
+  padding: 8px;
+  text-align: center;
+  background-color: #e7cad0cb;
 }
